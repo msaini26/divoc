@@ -1,0 +1,19 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "description": "This is our team's Rose Hack submission",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mainiGWC/rose-hacks-project-name.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mainiGWC/rose-hacks-project-name/issues"
+  },
+  "homepage": "https://github.com/mainiGWC/rose-hacks-project-name#readme"
+}
