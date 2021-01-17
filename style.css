@@ -26,7 +26,7 @@ body{
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
-#createAccount {
+/* #createAccount {
     background-color: transparent;
     border: transparent;
     color: white;
@@ -34,6 +34,9 @@ body{
 #createAccount a:hover{
     color:black;
 }
+#createNewUser:hover {
+    color:black;
+} */
 .img{
     display:flex;
     justify-content: flex-end;
@@ -161,6 +164,7 @@ button{
     margin: 1rem 0;
     cursor: pointer;
     transition: .5s;
+    text-align: center;
 }
 
 #createAccount a, #login a {
