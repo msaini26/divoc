@@ -145,6 +145,11 @@ ul.settings a {
     transition: all 0.3s;
 }
 
+.heading {
+    border-bottom: 1px solid #CDCDDF;
+    margin: 2em 0 5em;
+}
+
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
