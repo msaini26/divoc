@@ -27,7 +27,7 @@
             <img src="img/bg.svg">
         </div>
         <div class="login">
-            <form id="loginForm" action="index.html">
+            <form id="loginForm" action="">
                 <img src="img/avatar.png">
                 <h2 class="title">Welcome!</h2>
                 <!-- username section-->
@@ -62,25 +62,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <script type="text/javascript">
-        $(document).ready(function (e) {
-        $("#loginButton").on("click", function (e) {
-            var username = $("#username").val();
-            var go_to_url = "/loginData?" + username;
-
-            e.preventDefault();
-            fetch(go_to_url).then(function(response) {
-                    result = response;
-                    console.log(result);
-                }, reason => {
-                    console.error(reason); // Error!
-                });
-
-            // document.location.href = go_to_url;
-            // console.log(go_to_url);
-        });
-      });
-      </script>
     <script type="text/javascript" src="script.js"></script>
 </body>
 
