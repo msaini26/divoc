@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
@@ -126,7 +126,19 @@
     <div class="card-header">
         Your badges
       </div>
-    <img src />
+      <div class="badges">
+        <div class="key">
+        <img src="/img/badge.svg" alt="badge"/>
+        <h5>New User</h5>
+      </div>
+
+      <div class="key">
+        <img src="/img/vaccine.svg" alt="badge"/>
+        <h5>Recieved COVID vaccine</h5>
+      </div>
+
+      </div>
+    
 
 </div>
         <div class="card">
@@ -139,7 +151,10 @@
               
             </div>
           </div>
-        
+          <div class="card">
+            <canvas id="myChart" ></canvas>
+          
+          </div>
           <div class="row">
             <div class="col-sm-6">
               <div class="card">
@@ -190,10 +205,36 @@
       });
     </script>
 
-    <!-- MAIN TITLE ENDS HERE -->
+<script>
+  var ctx = document.getElementById('myChart').getContext('2d');
+  var myChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+          labels: ['COVID Contact'],
+          datasets: [{
+              label: 'Rate of result concerns',
+              data: [3, 9, , 4, 12, 8, 10],
+              backgroundColor: [
+                  'rgba(75, 192, 192, 0.2)',
+              ],
+              borderColor: [
+                   'rgba(75, 192, 192, 1)',
+                  
+              ],
+              borderWidth: 1
+          }]
+      },
+      options: {
+          scales: {
+              yAxes: [{
+                  ticks: {
+                      beginAtZero: true
+                  }
+              }]
+          }
+      }
+  });
+  </script>
 
-    <!-- MAIN CARDS STARTS HERE -->
-
-    <script src="/path/to/dist/js/morioh.js"></script>
   </body>
 </html>
