@@ -149,6 +149,19 @@ ul.settings a {
     border-bottom: 1px solid #CDCDDF;
     margin: 2em 0 5em;
 }
+.card {
+    margin: 25px 0;
+}
+.btn.btn-primary {
+    background-color:#6060ad;
+    color:#ffffff;
+    border: 1px solid #6060ad;
+    }
+
+.btn.btn-primary:hover{
+    background-color: #45458d;
+    border:1px solid #45458d;
+}
 
 /* ---------------------------------------------------
     MEDIAQUERIES
