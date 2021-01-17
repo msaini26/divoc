@@ -26,6 +26,14 @@ body{
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
+#createAccount {
+    background-color: transparent;
+    border: transparent;
+    color: white;
+}
+#createAccount a:hover{
+    color:black;
+}
 .img{
     display:flex;
     justify-content: flex-end;
