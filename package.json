@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/mainiGWC/rose-hacks-project-name/issues"
   },
-  "homepage": "https://github.com/mainiGWC/rose-hacks-project-name#readme"
+  "homepage": "https://github.com/mainiGWC/rose-hacks-project-name#readme",
+  "dependencies": {
+    "@patternfly/patternfly": "^4.70.2",
+    "node": "^15.4.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-install": "^1.1.0"
+  }
 }
