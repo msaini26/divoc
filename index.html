@@ -63,12 +63,21 @@
     ></script>
 
     <script type="text/javascript">
-        $(document).ready(function () {
+        $(document).ready(function (e) {
         $("#loginButton").on("click", function (e) {
             var username = $("#username").val();
             var go_to_url = "/loginData?" + username;
-            document.location.href = go_to_url;
-            console.log(go_to_url);
+
+            e.preventDefault();
+            fetch(go_to_url).then(function(response) {
+                    result = response;
+                    console.log(result);
+                }, reason => {
+                    console.error(reason); // Error!
+                });
+
+            // document.location.href = go_to_url;
+            // console.log(go_to_url);
         });
       });
       </script>
