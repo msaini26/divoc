@@ -1,7 +1,9 @@
-# Update
-Our team received the Best UX/UI hack for Divoc.
+
 
 # Divoc
+
+## Update
+Our team received the Best UX/UI hack for Divoc.
 
 ## Inspiration
 While some university's are providing COVID-19 symptom trackers for their faculty, staff, and students, very few individuals use such tools. To motivate individuals to use such trackers, our app, Divoc gamifies the symptom tracking experience by marking milestones and giving users awards. By being more aware of both one's mental and physical health, Divoc hopes to do its part to reduce the spread of the coronavirus. 
