@@ -1,3 +1,6 @@
+# Update
+Our team received the Best UX/UI hack for Divoc.
+
 # Divoc
 
 ## Inspiration
