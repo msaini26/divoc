@@ -3,7 +3,7 @@
 # Divoc
 
 ## Updates
-Our team received the Best UX/UI hack for Divoc.
+Our team received the Best UI/UX Hack for Divoc.
 
 #### "Try it out" link and Video Demonstration:
 http://www.divoc.online
